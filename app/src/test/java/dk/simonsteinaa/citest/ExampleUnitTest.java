@@ -17,4 +17,9 @@ public class ExampleUnitTest {
     public void helloWorldTest() {
         assertEquals(5, 3 + 2);
     }
+
+    @Test
+    public void thisWillFailTest() {
+        assertEquals(true, false);
+    }
 }
